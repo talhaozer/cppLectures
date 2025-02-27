@@ -45,6 +45,10 @@ void tryy(){
 
     };
 };
+
+void sayMyName(){
+    cout << endl<< "TALHA";
+}
     
 int main()
 {
