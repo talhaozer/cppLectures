@@ -5,14 +5,15 @@
 using namespace std;
 
 
-
+int a = 0;
+int b = 0;
 void tryy(){
     
     cout << "Enter costumer ID: ";
     int costumerId;
     vector <int> costumerIdList;
     
-    deque<int> costumerIdListt;
+    
     
 while (cin >> costumerId)
 {
