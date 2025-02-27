@@ -7,19 +7,16 @@ using namespace std;
 
 int a = 0;
 int b = 0;
-void tryy(){
+void tryy(){    
     
     cout << "Enter costumer ID: ";
+    
     int costumerId;
+
     vector <int> costumerIdList;
-    
-    
-    
-while (cin >> costumerId)
-{
-   
-    
-  
+      
+    while (cin >> costumerId)
+    {
     costumerIdList.push_back(costumerId);
 
     for (int i = 0; i < costumerIdList.size()-1; i++)
@@ -31,8 +28,7 @@ while (cin >> costumerId)
             costumerIdList.erase(costumerIdList.begin() + i);
             
             costumerIdList.push_back(costumerId);
-            break;
-        
+            break;     
         }
         
     }
@@ -45,9 +41,7 @@ while (cin >> costumerId)
     
     cout << endl<< "Enter costumer ID: ";
 
-};
-
-
+    };
 };
     
 int main()
