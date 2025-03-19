@@ -6,6 +6,7 @@
 using namespace std;
 int cnt;
 int cn2;
+int cn3;
 int score = 0;
 int a;
 int b;
