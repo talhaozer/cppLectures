@@ -5,6 +5,7 @@
 #include <windows.h>
 using namespace std;
 int cnt;
+int cn2;
 int score = 0;
 int a;
 int b;
