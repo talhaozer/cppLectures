@@ -34,9 +34,9 @@ vector<vector<string>> groupWordsByLength(const vector<string>& words) {
 
 
 
-    for (const stwring& word : words) {
+    for (const string& word : words) {
         int length = word.length();
-        groupedW    ords[length].push_back(word);//{{3,{bat,cat,dog}}  ,{8,{elephant}}}
+        grouppedwords[length].push_back(word);//{{3,{bat,cat,dog}}  ,{8,{elephant}}}
     }
     
 

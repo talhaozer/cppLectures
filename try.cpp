@@ -46,12 +46,11 @@ void tryy(){
     };
 };
 
-void sayMyName(){
-    cout << endl<< "TALHA";
-}
+
     
 int main()
 {
+    
     tryy();
     return 0;
 }

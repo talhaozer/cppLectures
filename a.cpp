@@ -2,6 +2,7 @@
 #include <vector>
 #include <unordered_map>
 #include <fstream>
+
 using namespace std;
 
 
@@ -23,13 +24,7 @@ vector<vector<string>> groupWordsByLength(const vector<string>& words) {
         result.push_back(pair.second);
     }
     return result;
-    
-
-
-
-
 }
-    
 
 int main(){
     string a ;

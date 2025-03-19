@@ -3,9 +3,12 @@
 #include <map>
 #include <algorithm>
 #include <string>
+#include <cmath>
 using namespace std;
 
 int main() {
+
+  /*
   // Create a vector called cars that will store strings
   vector<string> cars = {"Volvo", "BMW", "Ford", "Mazda"};
 
@@ -47,8 +50,14 @@ int main() {
   } else {
     cout << "The number 3 was not found." << "\n";
   }
-  
 
+*/
+
+  const double π = 3.14159;
+  double x = π/6;  
+  double n = sin(x);
+
+  cout << n << "\n";
 
 
   return 0;
